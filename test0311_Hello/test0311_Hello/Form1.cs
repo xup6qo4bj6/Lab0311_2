@@ -21,5 +21,10 @@ namespace test0311_Hello
 		{
 			button1.Text = "Hello 6666";
 		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			button2.Text = DateTime.Now.ToString();
+		}
 	}
 }
